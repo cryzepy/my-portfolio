@@ -18,6 +18,10 @@ li {
 	list-style: none;
 }
 
+:root {
+	font-size: 16px
+}
+
  nav {
  	background-color: rgba(0,0,0,.1);
  	position: fixed;
@@ -73,6 +77,7 @@ li {
 
 .hero-text-content {
 	font-family: "Poppins-Light";
+	font-size: 1rem
 }
 
 .skills-container {
@@ -172,4 +177,15 @@ footer {
 	to {
 		transform: rotate(9deg) scale(1.1);
 	}
+}
+
+@media only screen and (max-width: 769px) {
+  nav {
+  	display: none;
+  }
+
+  .skils-items-container {
+  	flex-direction: column;
+  	padding: 5rem 0
+  }
 }
