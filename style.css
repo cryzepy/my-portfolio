@@ -158,9 +158,11 @@ footer {
 	background-color: #121212;
 	font-family: "Poppins-Light";
 	color: #fff;
-	font-size: 1.1rem;
+	font-size: .8rem;
 	padding: .8rem;
-	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
 @keyframes smoothShaking {
