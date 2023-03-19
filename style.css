@@ -135,6 +135,7 @@ li {
 	position: absolute;
 	bottom: -50%;
 	left: 0;
+	transition-delay: .4s
 }
 
 .projects-container {
@@ -159,16 +160,58 @@ li {
 	font-size: 2.6rem
 }
 
+.contact-items-container {
+	display: flex;
+	gap: 6rem 4rem;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.whatsapp-contact-container {
+	background-image: url('assets/icons/logo/logo-whatsapp.png');
+}
+
+.email-contact-container {
+	background-image: url('assets/icons/logo/logo-gmail.png');
+}
+
+.linkedin-contact-container {
+	background-image: url('assets/icons/logo/logo-linkedin.png');	
+}
+
+.instagram-contact-container {
+	background-image: url('assets/icons/logo/logo-instagram.png');	
+}
+
+.github-contact-container {
+	background-image: url('assets/icons/logo/logo-github.png');	
+}
+
+.contact-items-container a div {
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 115px;
+	height: 115px;
+	background-position: center;
+	transition: 300ms
+}
+
+.contact-items-container a div:hover {
+	filter: grayscale(1);
+	transform: translateY(-9px);
+}
+
 footer {
 	background-color: #121212;
 	font-family: "Poppins-Light";
 	color: #fff;
 	font-size: .8rem;
-	padding: .8rem;
+	padding: .3rem .7rem;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 }
+
 
 @keyframes smoothShaking {
 	from {
@@ -188,4 +231,9 @@ footer {
   	flex-direction: column;
   	padding: 5rem 0
   }
+
+  .contact-items-container {
+  	flex-direction: column;
+  }
+
 }
