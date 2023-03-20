@@ -131,15 +131,6 @@ li {
 	position: relative;
 }
 
-.skils-items-container > div:hover .skills-logo {
-	
-}
-
-.skils-items-container > div:hover .skills-text {
-	filter: opacity(1);
-	transform: rotate(-3deg) translate(30px,20px);
-}
-
 .skils-items-container img {
 	width: 115px;
 }
@@ -223,14 +214,6 @@ li {
 	transition-duration: 10ms
 }
 
-.contact-items-container a:hover {
-	background-color: whitesmoke
-}
-
-.contact-items-container a:hover div {
-	transform: scale(1.2) rotate(-21deg);
-}
-
 footer {
 	background-color: #121212;
 	font-family: "Poppins-ExtraLight";
@@ -253,6 +236,7 @@ footer {
 	}
 }
 
+/*for mobile*/
 @media only screen and (max-width: 769px) {
   nav {
   	display: none;
@@ -266,5 +250,20 @@ footer {
   .contact-items-container {
   	flex-direction: column;
   }
+}
 
+/*for no mobile*/
+@media only screen and (min-width: 769px) {
+	.skils-items-container > div:hover .skills-text {
+		filter: opacity(1);
+		transform: rotate(-3deg) translate(30px,20px);
+	}
+
+	.contact-items-container a:hover {
+		background-color: whitesmoke
+	}
+
+	.contact-items-container a:hover div {
+		transform: scale(1.2) rotate(-21deg);
+	}
 }
