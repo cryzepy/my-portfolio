@@ -8,6 +8,11 @@
 	src: url('assets/fonts/Poppins-Light.ttf');
 }
 
+@font-face {
+	font-family: "Poppins-ExtraLight";
+	src: url('assets/fonts/Poppins-ExtraLight.ttf');
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -162,7 +167,7 @@ li {
 
 .contact-items-container {
 	display: flex;
-	gap: 6rem 4rem;
+	gap: 0rem 4rem;
 	flex-wrap: wrap;
 	justify-content: center;
 }
@@ -187,25 +192,34 @@ li {
 	background-image: url('assets/icons/logo/logo-github.png');	
 }
 
+.contact-items-container a {
+	padding: 3rem 0rem;
+	transition: .2s;
+	border-radius: 7px
+}
+
 .contact-items-container a div {
 	background-size: contain;
 	background-repeat: no-repeat;
-	width: 115px;
-	height: 115px;
+	width: 100px;
+	height: 100px;
 	background-position: center;
-	transition: 300ms
+	transition-duration: 10ms
 }
 
-.contact-items-container a div:hover {
-	filter: grayscale(1);
-	transform: translateY(-9px);
+.contact-items-container a:hover {
+	background-color: whitesmoke
+}
+
+.contact-items-container a:hover div {
+	transform: scale(1.2) rotate(-21deg);
 }
 
 footer {
 	background-color: #121212;
-	font-family: "Poppins-Light";
+	font-family: "Poppins-ExtraLight";
 	color: #fff;
-	font-size: .8rem;
+	font-size: .72rem;
 	padding: .3rem .7rem;
 	display: flex;
 	justify-content: space-between;
