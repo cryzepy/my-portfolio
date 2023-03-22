@@ -1,16 +1,22 @@
 @font-face {
 	font-family: "Poppins-Bold";
-	src: url('assets/fonts/Poppins-bold.ttf');
+	src: url('assets/fonts/Poppins-Bold.ttf');
 }
 
 @font-face {
 	font-family: "Poppins-Light";
-	src: url('assets/fonts/Poppins-light.ttf');
+	src: url('assets/fonts/Poppins-Light.ttf');
 }
 
 @font-face {
 	font-family: "Poppins-ExtraLight";
 	src: url('assets/fonts/Poppins-ExtraLight.ttf');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
 }
 
 li {
@@ -23,6 +29,7 @@ li {
 
 nav {
 	background-color: rgba(0,0,0,.1);
+	position: fixed;
 	display: flex;
 	justify-content: flex-end;
 	width: 100%;
@@ -43,7 +50,7 @@ nav > ul > li {
 	position: relative;
 }
 
-nav > ul > li {
+nav > ul > li::after {
 	content: "";
  	position: absolute;
  	background-color: whitesmoke;
@@ -57,7 +64,7 @@ nav > ul > li {
  	opacity: 0
 }
 
-nav > ul > li:hover {
+nav > ul > li:hover::after {
 	border-radius: 2px;
 	transform: translateX(50%) scale(1);
 	opacity: 1
