@@ -27,34 +27,54 @@ li {
 	font-size: 16px
 }
 
- nav {
- 	background-color: rgba(0,0,0,.1);
- 	position: fixed;
- 	display: flex;
- 	justify-content: flex-end;
- 	width: 100%;
- 	box-sizing: border-box;
- 	padding: .4rem 2rem;
- 	box-shadow: 0 10px 10px rgba(0,0,0,.1);
- 	z-index: 1
+nav {
+	background-color: rgba(0,0,0,.1);
+	position: fixed;
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+	box-sizing: border-box;
+	padding: .4rem 2rem;
+	box-shadow: 0 10px 10px rgba(0,0,0,.1);
+	z-index: 1
 
- }
+}
 
- nav > ul {
+nav > ul {
  	display: flex;
  	flex-wrap: wrap;
  	gap: 3.5rem;
- }
+}
 
- nav > ul > li > a {
- 	text-decoration: none;
- 	color: white;
- 	font-family: "Poppins-Light";
- }
+nav > ul > li {
+	position: relative;
+}
 
- nav > ul > li > a:hover {
- 	color: gray
- }
+nav > ul > li::after {
+	content: "";
+ 	position: absolute;
+ 	background-color: whitesmoke;
+ 	width: 118%;
+ 	height: 2px;
+ 	bottom: -28%;
+ 	right: 50%;
+ 	transform: translateX(50%) scale(.1);
+ 	border-radius: 110%;
+ 	transition-duration: 350ms;
+ 	opacity: 0
+}
+
+nav > ul > li:hover::after {
+	border-radius: 2px;
+	transform: translateX(50%) scale(1);
+	opacity: 1
+}
+
+nav > ul > li > a {
+	text-decoration: none;
+	color: white;
+	font-family: "Poppins-Light";
+}
 
 .hero-container {
 	min-height: 100vh;
@@ -79,7 +99,6 @@ li {
 	left: 0;
 	background-color: rgba(0,0,0,.4);
 	z-index: 0
-
 }
 
 .hero-text-container {
@@ -123,7 +142,6 @@ li {
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 9rem 4rem;
-
 }
 
 .skils-items-container > div {
@@ -211,7 +229,7 @@ li {
 	width: 100px;
 	height: 100px;
 	background-position: center;
-	transition-duration: 10ms
+	transition-duration: 10ms;
 }
 
 footer {
