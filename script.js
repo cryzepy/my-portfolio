@@ -1,7 +1,4 @@
-// inisialisasi AOS
-AOS.init({
-	offest: 0
-})
+
 
 // Random time animation skills logo
 const skillsLogo = document.querySelectorAll('.skills-logo')
