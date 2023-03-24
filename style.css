@@ -257,7 +257,7 @@ footer {
 	font-family: "Poppins-ExtraLight";
 	color: #fff;
 	font-size: .72rem;
-	padding: .3rem .7rem;
+	padding: .3rem auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
