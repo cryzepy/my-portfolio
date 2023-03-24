@@ -191,11 +191,15 @@ nav > ul > li > a {
 	margin: 1rem auto
 }
 
+.projects-items-container ul {
+	display: flex;
+	flex-direction: column;
+}
+
 .projects-items-container ul a {
 	color: white;
 	font-family: "Poppins-Bold";
 }
-
 
 .contact-container {
 	min-height: 100vh;
