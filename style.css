@@ -128,13 +128,19 @@ nav > ul > li > a {
 .skills-container {
 	min-height: 100vh;
 	background-color: #fff;
+	box-sizing: border-box;
+	padding: 7rem 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 6.7rem;
+}
+
+.skills-container > div {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	box-sizing: border-box;
-	gap: 3.5rem;
-	padding: 3rem 2rem
+	gap: 3.6rem;
 }
 
 .skills-header {
