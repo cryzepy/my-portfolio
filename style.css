@@ -197,14 +197,18 @@ nav > ul > li > a {
 	margin: 1rem auto
 }
 
-.projects-items-container ul {
+.projects-items-container {
 	display: flex;
 	flex-direction: column;
+	gap: 0.85rem;
+	align-items: center;
 }
 
-.projects-items-container ul a {
+.projects-items-container a {
 	color: white;
-	font-family: "Poppins-Bold";
+	font-family: "Poppins-Light";
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 
 .contact-container {
