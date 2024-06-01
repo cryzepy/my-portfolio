@@ -21,8 +21,7 @@ const mySkill = [
 				skillName: "Backend",
 				skills: [
 					{name: "Node.js", mastery: 62.5},
-					{name: "Express.js", mastery: 70},
-					{name: "JavaScript", mastery: 91}
+					{name: "Express.js", mastery: 75}
 				]
 			},
 			{
@@ -30,7 +29,7 @@ const mySkill = [
 				skills: [
 					{name: "React", mastery: 86},
 					{name: "JavaScript", mastery: 91},
-					{name: "JQuery", mastery: 64},
+					{name: "JQuery", mastery: 75},
 					{name: "HTML", mastery: 85},
 					{name: "CSS", mastery: 77.5},
 					{name: "Bootstrap", mastery: 77.5}
