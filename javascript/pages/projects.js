@@ -33,8 +33,8 @@ const writeProjectList = () => {
 			imageLinkElement.target = "_blank"
 			imageLinkElement.href = project.github
 			githubElement.src = "assets/icons/logo-github-white.png"
-			imageLinkElement.dataset.aos = "fade-left"
-			imageLinkElement.dataset.aosDuration = 800
+			// imageLinkElement.dataset.aos = "fade-left"
+			// imageLinkElement.dataset.aosDuration = 800
 
 			li.appendChild(imageLinkElement)
 			imageLinkElement.appendChild(githubElement)
