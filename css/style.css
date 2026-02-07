@@ -270,6 +270,10 @@ nav > ul > li > a {
   background-image: url("../assets/icons/logo-github.png");
 }
 
+.instagram-contact-container {
+  background-image: url("../assets/icons/logo-instagram.webp");
+}
+
 .contact-items-container a {
   padding: 3rem 0rem;
   transition: 0.2s;

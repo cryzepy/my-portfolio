@@ -5,53 +5,56 @@ const mySkill = [
 		skillName: "Programming",
 		skills: [
 			{
-				skillName: "Artificial Intelligence",
-				skills: [
-					{name: "Python", mastery: 88}
-				]
-			},
-			{
 				skillName: "Mobile App Development",
 				skills: [
-					{name: "Kotlin", mastery: 77.5},
-					{name: "Java", mastery: 45},
+					{name: "Jetpack Compose (Kotlin)", mastery: 77.5},
 				]
 			},
 			{
 				skillName: "Backend",
 				skills: [
-					{name: "Node.js", mastery: 62.5},
-					{name: "Express.js", mastery: 75}
+		
+					{name: "Express (JavaScript)", mastery: 75}
 				]
 			},
 			{
 				skillName: "Web Development",
 				skills: [
-					{name: "React", mastery: 86},
-					{name: "JavaScript", mastery: 91},
+					{name: "Vue (TypeScript)", mastery: 75},
+					{name: "React (JavaScript)", mastery: 86},
 					{name: "JQuery", mastery: 75},
 					{name: "HTML", mastery: 85},
 					{name: "CSS", mastery: 77.5},
-					{name: "Bootstrap", mastery: 77.5}
+					{name: "Bootstrap", mastery: 77.5},
+					{name: "Tailwind", mastery: 75}
 				]
 			},
 			{
 				skillName: "Database",
 				skills: [
 					{name: "MongoDB", mastery: 75},
-					{name: "MySQL", mastery: 75}
+					{name: "MySQL", mastery: 75},
+					{name: "SQLite", mastery: 75},
+					 
 				]
 			},
 			{
-				skillName: "General Programming",
+				skillName: "Version Control System",
 				skills: [
-					{name: "git", mastery: 74},
+					{name: "Github", mastery: 75},
 				]
 			},
 			{
 				skillName: "Design",
 				skills: [
-					{name: "Figma", mastery: 62},
+					{name: "Figma", mastery: 75},
+					{name: "Canva", mastery: 75},
+				]
+			},
+				{
+				skillName: "Others",
+				skills: [
+					{name: "Microsoft Office", mastery: 75},
 				]
 			}
 		]
