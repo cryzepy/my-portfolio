@@ -4,12 +4,9 @@
 //	github: String?
 
 const project_list = [
-	{ name: "Website - online course PKM-PM Universitas Muhammadiyah Malang", github: "https://github.com/cryzepy/project-course-2#lihat-website"},
-	{ name: "WebApp - todolist", github: "https://github.com/cryzepy/daily-task#aplikasi-todo-list"},
 	{ name: "Website - jadwal sholat di indonesia", github: "https://github.com/cryzepy/Jadwal-Sholat-By-Fikrialfian",link: "https://cryzepy.github.io/Jadwal-Sholat-By-Fikrialfian/"},
-	{ name: "WebApp - daftar belanja", github: "https://github.com/cryzepy/Shopping-List#tentang-website"},
-	{ name: "Android App - Aplikasi Tebak Kata", github: "https://github.com/cryzepy/android---kotlin---aplikasi-tebak-kata/"},
-	{name: "Android App - Aplikasi todolist", github: "https://github.com/cryzepy/android---kotlin--aplikasi-todolist-menggunakan-sqlite"}
+	{ name: "Backend - JWT Auth System", github: "https://github.com/cryzepy/system-login-v1"},
+	{ name: "Backend - ShortLink API", github: "https://github.com/cryzepy/url-shortener"}
 ]
 
 const writeProjectList = () => {
