@@ -4,9 +4,11 @@
 //	github: String?
 
 const project_list = [
-	{ name: "Website - jadwal sholat di indonesia", github: "https://github.com/cryzepy/Jadwal-Sholat-By-Fikrialfian",link: "https://cryzepy.github.io/Jadwal-Sholat-By-Fikrialfian/"},
 	{ name: "Backend - JWT Auth System", github: "https://github.com/cryzepy/system-login-v1"},
-	{ name: "Backend - ShortLink API", github: "https://github.com/cryzepy/url-shortener"}
+	{ name: "Backend - ShortLink API", github: "https://github.com/cryzepy/url-shortener"},
+	{ name: "Fullstack - MapIt Community (Peta Fasilitas Kelurahan Tunjungsekar, Malang)", link: "https://project-map-eight.vercel.app/"},
+	{ name: "Fullstack - Online Project Course for PKM-PM, Muhammadiyah University Malang, 2023", link: "https://project-course-2-cli.vercel.app/" },
+	{ name: "Website - jadwal sholat di indonesia", github: "https://github.com/cryzepy/Jadwal-Sholat-By-Fikrialfian",link: "https://cryzepy.github.io/Jadwal-Sholat-By-Fikrialfian/"},
 ]
 
 const writeProjectList = () => {
