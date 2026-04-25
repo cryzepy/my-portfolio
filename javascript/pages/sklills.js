@@ -108,6 +108,12 @@ const mySkill = [
 		mastery: 75,
 		typeRole: ["fe", "be"],
 		category: "Others"
+	},
+	{
+		name: "Laravel (PHP)",
+		mastery: 70,
+		typeRole: "be",
+		category: "Backend"
 	}
 ]
 
