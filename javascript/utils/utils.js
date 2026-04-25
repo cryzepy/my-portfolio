@@ -3,41 +3,61 @@ function writeListItem(data, headerElement, listContainer, writeListElement, noD
 		headerElement.innerText = noDataText
 		listContainer.style.display = "none"
 	} else {
-		writeListElement()
+		writeListElement(data)
 	}
 }
 
-function removeLowSkill(data, minimumSkill) {
+function removeLowSkill(skills, minimumMasteryScore) {
 
-	const removeLowSkill = data.map(skill => {
-		return {
-			...skill,
-			skills: skill.skills.map(subSkill => {
-				return {
-					...subSkill,
-					skills: subSkill.skills.filter(superSubSkill => {
-						return superSubSkill.mastery >= minimumSkill
-					})
-				}
-			})
+	const skillWithLowMasteryRemoved = []
+	for(const skill of skills) {
+		// remove skill yang memiliki mastery dibawah minimumMasteryScore
+		if(skill.mastery >= minimumMasteryScore) {
+			skillWithLowMasteryRemoved.push(skill)
 		}
-	})
+	}
 
-	const removeNullSkill = removeLowSkill.map(skill => {
-		return {
-			...skill,
-			skills: skill.skills.filter(subSkill => {
-				return subSkill.skills.length > 0
-			})
+	return skillWithLowMasteryRemoved
+
+}
+
+function getSkillByRole(role, skills) {
+
+	if(role === "be") {
+		return skills.filter(skill => {
+
+			if(typeof skill.typeRole === "string") {
+				return skill.typeRole === "be"
+			}else if(Array.isArray(skill.typeRole)) {
+				return skill.typeRole.includes("be")
+			}
+			return false
 		}
-	})
+	)
+	} else if(role === "fe") {
+		return skills.filter(skill => {
+			if(typeof skill.typeRole === "string") {
+				return skill.typeRole === "fe"
+			}else if(Array.isArray(skill.typeRole)) {
+				return skill.typeRole.includes("fe")
+			}
+			return false
+		}
+	)
+	}
 
-	const removeNullCategory = removeNullSkill.filter(skill => {
-		return skill.skills.length > 0
-	})
+	return skills
 
-	return removeNullCategory
+}
 
+function getProjectByRole(role, projects) {
+	if(role === "be") {
+		return projects.filter(project => project.role === "be" || project.role === "fs")
+	} else if(role === "fe") {
+		return projects.filter(project => project.role === "fe" || project.role == "fs")
+	}else{
+		return projects
+	}
 }
 
 
