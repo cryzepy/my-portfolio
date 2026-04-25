@@ -1,3 +1,6 @@
+const detailPortofolioElement = document.getElementById('txt-detail-skills');
+
+
 const params = new URLSearchParams(window.location.search);
 
 const typeRolePortofolio = params.get('t');
@@ -23,15 +26,9 @@ const detailSectionSkills = [
 
 // handle backend developer portofolio
 if (typeRolePortofolio === 'be') {
-    // HOME > yang akan berupah detail portofolio backend developer
-    // My Skills > Skill relevant
-    // My Projects > Project Relevan
-    const SklillName = "Backend Developer"
-    console.log("ini portofolio backend developer")
+    detailPortofolioElement.innerText = detailSectionSkills.find(detail => detail.role === "be").description
 } else if(typeRolePortofolio === 'fe') {
-    console.log("ini portofolio frontend developer")
-} else if(typeRolePortofolio == "fs") {
-    console.log("ini portofolio fullstack developer")
+    detailPortofolioElement.innerText = detailSectionSkills.find(detail => detail.role === "fe").description
 } else {
-    console.log("tidak ada portofolio yang dipilih")
-}
+    detailPortofolioElement.innerText = detailSectionSkills.find(detail => detail.role === "fs").description
+} 
