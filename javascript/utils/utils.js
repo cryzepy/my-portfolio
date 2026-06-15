@@ -1,9 +1,10 @@
-function writeListItem(data, headerElement, listContainer, writeListElement, noDataText) {
+function writeListItem(data, headerElement, listContainer, writeListElement, noDataText, role) {
 	if(data.length == 0) {
 		headerElement.innerText = noDataText
 		listContainer.style.display = "none"
 	} else {
-		writeListElement(data)
+		const projects = filter_project_to_show(data, role)
+		writeListElement(projects)
 	}
 }
 

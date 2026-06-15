@@ -120,9 +120,6 @@ const mySkill = [
 const skillsWithRole = getSkillByRole(typeRolePortofolio, mySkill)
 const filterLowSkill = removeLowSkill(skillsWithRole, MIN_SKILL_MASTERY_SCORE)
 
-console.log(filterLowSkill)
-
-
 const superCategoryHeader = new Set(filterLowSkill.map(skill => CATEGORIES[skill.category]))
 const allCategory = new Set(filterLowSkill.map(skill => skill.category))
 
@@ -168,7 +165,6 @@ for(const superCategory of superCategoryHeader) {
 					// aturan menentukan rotate: jika index genap maka rotate bilangan negative dan jika tidak sebaliknya, dan untuk nilai rotatenya random dari angka 2 - 5
 					const rotateValue = `${index % 2 == 0 ? "-" : ""}${getRandomNumber(2, 4)}deg`
 					skillItem.style.rotate = rotateValue
-					console.log(rotateValue)
 					index++
 				}
 			}

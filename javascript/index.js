@@ -3,7 +3,7 @@ const detailPortofolioElement = document.getElementById('txt-detail-skills');
 
 const params = new URLSearchParams(window.location.search);
 
-const typeRolePortofolio = params.get('t');
+const typeRolePortofolio = params.get('t') || "fs";
 
 // element repleced
 const txtDetailSkills = document.getElementById('txt-detail-skills');
