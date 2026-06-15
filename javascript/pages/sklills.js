@@ -14,44 +14,32 @@ const CATEGORIES ={
 
 const mySkill = [
 	{ 
-		name: "Jetpack Compose (Kotlin)", 
-		mastery: 77.5,
+		name: "Jetpack Compose", 
+		mastery: 79,
 		typeRole: "fe",
 		category: "Mobile App Development",
 	},
 	{
-		name: "Express (JavaScript)",
-		mastery: 75,
+		name: "Express",
+		mastery: 77,
 		typeRole: "be",
 		category: "Backend",
 	},
 	{
-		name: "Vue (TypeScript)",
-		mastery: 75,
+		name: "Vue",
+		mastery: 77,
 		typeRole: "fe",
 		category: "Web Development",
 	},
 	{
-		name: "React (JavaScript)",
-		mastery: 86,
+		name: "React",
+		mastery: 88,
 		typeRole: "fe",
 		category: "Web Development",
 	},
 	{
 		name: "JQuery",
 		mastery: 75,
-		typeRole: "fe",
-		category: "Web Development",
-	},
-	{
-		name: "HTML",
-		mastery: 85,
-		typeRole: "fe",
-		category: "Web Development",
-	},
-	{
-		name: "CSS",
-		mastery: 77.5,
 		typeRole: "fe",
 		category: "Web Development",
 	},
@@ -75,6 +63,12 @@ const mySkill = [
 	},
 	{
 		name: "MySQL",
+		mastery: 75,
+		typeRole: "be",
+		category: "Database",
+	},
+	{
+		name: "PostgreSQL",
 		mastery: 75,
 		typeRole: "be",
 		category: "Database",
@@ -110,10 +104,16 @@ const mySkill = [
 		category: "Others"
 	},
 	{
-		name: "Laravel (PHP)",
-		mastery: 70,
+		name: "Laravel",
+		mastery: 75,
 		typeRole: "be",
 		category: "Backend"
+	},
+	{
+		name: "Next.js",
+		mastery: 78,
+		typeRole: ["be","fe"],
+		category: "Web Development"
 	}
 ]
 

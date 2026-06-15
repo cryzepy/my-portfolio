@@ -11,7 +11,7 @@ const project_list = [
 	{ name: "JWT Auth System", github: "https://github.com/cryzepy/system-login-v1", role: "be", quality_star: 2.5 },
 	{ name: "ShortLink API", github: "https://github.com/cryzepy/url-shortener", role: "be", quality_star: 2.4 },
 	{ name: "Backend For Left Days Mobile App", github: "https://github.com/cryzepy/leftdays-backend", role: "be", quality_star: 2.0 },
-	{ name: "MapIt Community (Peta Fasilitas Kelurahan Tunjungsekar, Malang)", link: "https://project-map-eight.vercel.app/", role: "fs", quality_star: 3.9 },
+	{ name: "Mapping System for Public Facilities - Tunjungsekar, Malang", link: "https://project-map-eight.vercel.app/", role: "fs", quality_star: 3.9 },
 	{ name: "Online Project Course for PKM-PM, Muhammadiyah University Malang, 2023", link: "https://project-course-2-cli.vercel.app/", role: "fs", quality_star: 3.6 },
 	{ name: "jadwal sholat di indonesia", github: "https://github.com/cryzepy/Jadwal-Sholat-By-Fikrialfian", link: "https://cryzepy.github.io/Jadwal-Sholat-By-Fikrialfian/", role: "fe", quality_star: 1.8 },
 	{ name: "Product & Inventory Management API", github: "https://github.com/cryzepy/ecommerce-inventory-api", role: "be", quality_star: 3.6 },
