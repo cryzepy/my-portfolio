@@ -101,7 +101,8 @@ nav > ul > li > a {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.5825);
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(16px);
   z-index: 0;
 }
 

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background Persegi dengan Rounded Corner Lembut (Modern & Clean) -->
+  <rect width="512" height="512" rx="128" fill="#0F172A" />
+  
+  <!-- Aksen Tag Kode Kiri (<) melambangkan Developer -->
+  <path d="M140 190 L60 256 L140 322" 
+        fill="none" 
+        stroke="#38BDF8" 
+        stroke-width="36" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+        
+  <!-- Inisial Huruf "F" dan "A" yang Menyatu di Tengah -->
+  <g transform="translate(180, 140)" fill="#F8FAFC">
+    <!-- Huruf F -->
+    <path d="M0 0 H110 V32 H36 V96 H100 V128 H36 V232 H0 Z" />
+    <!-- Huruf A -->
+    <path d="M130 232 L185 0 H220 L275 232 H236 L224 176 H180 L168 232 Z M186 144 H218 L202 64 Z" />
+  </g>
+
+  <!-- Aksen Tag Kode Kanan (>) melambangkan Developer -->
+  <path d="M372 190 L452 256 L372 322" 
+        fill="none" 
+        stroke="#38BDF8" 
+        stroke-width="36" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+</svg>

@@ -53,11 +53,11 @@ function getSkillByRole(role, skills) {
 
 function getProjectByRole(role, projects) {
 	if(role === "be") {
-		return projects.filter(project => project.role === "be" || project.role === "fs")
+		return projects.filter(project => project.role === "be")
 	} else if(role === "fe") {
-		return projects.filter(project => project.role === "fe" || project.role == "fs")
+		return projects.filter(project => project.role === "fe")
 	}else{
-		return projects
+		return projects.filter(project => project.role === "fs")
 	}
 }
 
