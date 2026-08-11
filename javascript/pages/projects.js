@@ -16,6 +16,7 @@ const PROJECT_FE = [
 	{ id_project: 6, name: "AlfiMart Enterprise - E-Commerce Platform", github: "https://github.com/cryzepy/alfimart-enterprise", link: "https://alfimart-enterprise.vercel.app/",role: "fe",quality_star: 4.7 },
 	{ id_project: 7, name: "Instagram Follow Analyzer", github: "https://github.com/cryzepy/instagram-follow-analyzer", link: "https://instagram-follow-analyzer-black.vercel.app/",role: "fe", quality_star: 2.5 },
 	{ id_project: 11, name: "NemuDiamond", github: null, link: "https://nemudiamond.store",role: "fe", quality_star: 3.9 },
+	{ id_project: 12, name: "Bloom Aesthetic Clinic - Klinik Kecantikan & Perawatan Kulit", github: "https://github.com/cryzepy/klinik-kecantikan", link: "https://cryzepy.github.io/klinik-kecantikan/",role: "fe", quality_star: 3.3 },
 ]
 
 const PROJECT_BE = [
