@@ -19,7 +19,7 @@ const detailSectionSkills = [
     },
     { 
         role: 'fs',
-        description: "An IT student with a solid understanding of full-stack application development. Possesses knowledge of API development, database integration, and user interface development. Eager to learn, grow, and contribute to a software development team."
+        description: "Fresh graduate Teknik Informatika dan Full-Stack Developer yang memiliki fondasi kuat dalam pengembangan frontend dan backend berbasis Next.js, React, dan Express melalui berbagai proyek terapan. Terbiasa membangun aplikasi web dari tahap perancangan hingga pengelolaan data. Cepat beradaptasi dengan teknologi baru dan sangat antusias untuk mempraktikkan keterampilan teknis pada standar industri nyata."
     }
 ]
 

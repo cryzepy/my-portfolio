@@ -8,41 +8,42 @@
 // quality_star: 1-5 
 
 const PROJECT_FE = [
-	{ id_project: 1, name: "Mapping System for Public Facilities - Tunjungsekar, Malang", github: "https://github.com/cryzepy/project-map", link: "https://project-map-eight.vercel.app/", role: "fe", quality_star: 3.9 },
-	{ id_project: 2, name: "Online Project Course for PKM-PM, Muhammadiyah University Malang", link: "https://project-course-2-cli.vercel.app/", role: "fe", quality_star: 2.1 },
+	// { id_project: 1, name: "Mapping System for Public Facilities - Tunjungsekar, Malang", github: "https://github.com/cryzepy/project-map", link: "https://project-map-eight.vercel.app/", role: "fe", quality_star: 3.9 },
+	// { id_project: 2, name: "Online Project Course for PKM-PM, Muhammadiyah University Malang", link: "https://project-course-2-cli.vercel.app/", role: "fe", quality_star: 2.1 },
 	{ id_project: 3, name: "jadwal sholat di indonesia", github: "https://github.com/cryzepy/Jadwal-Sholat-By-Fikrialfian", link: "https://cryzepy.github.io/Jadwal-Sholat-By-Fikrialfian/", role: "fe", quality_star: 1.8 },
 	{ id_project: 4, name: "Furniture Landing Page", github: "https://github.com/cryzepy/SkwnFrontendDev-1a-FikriAlfian", link: "https://cryzepy.github.io/SkwnFrontendDev-1a-FikriAlfian/",role: "fe", quality_star: 3.2},
 	{ id_project: 5, name: "Finance App Dashboard", github: "https://github.com/cryzepy/SkwnFrontendDev-1b-FikriAlfian", link: "https://cryzepy.github.io/SkwnFrontendDev-1b-FikriAlfian/",role: "fe", quality_star: 1.0},
-	{ id_project: 6, name: "AlfiMart Enterprise - E-Commerce Platform", github: "https://github.com/cryzepy/alfimart-enterprise", link: "https://alfimart-enterprise.vercel.app/",role: "fe",quality_star: 4.7 },
-	{ id_project: 7, name: "Instagram Follow Analyzer", github: "https://github.com/cryzepy/instagram-follow-analyzer", link: "https://instagram-follow-analyzer-black.vercel.app/",role: "fe", quality_star: 2.5 },
-	{ id_project: 11, name: "NemuDiamond", github: null, link: "https://nemudiamond.store",role: "fe", quality_star: 3.9 },
-	{ id_project: 12, name: "Bloom Aesthetic Clinic - Klinik Kecantikan & Perawatan Kulit", github: "https://github.com/cryzepy/klinik-kecantikan", link: "https://cryzepy.github.io/klinik-kecantikan/",role: "fe", quality_star: 3.3 },
+	// { id_project: 6, name: "AlfiMart Enterprise - E-Commerce Platform", github: "https://github.com/cryzepy/alfimart-enterprise", link: "https://alfimart-enterprise.vercel.app/",role: "fe",quality_star: 4.7 },
+	{ id_project: 7, name: "Instagram Follow Analyzer", github: "https://github.com/cryzepy/instagram-follow-analyzer", link: "https://instagram-follow-analyzer-black.vercel.app/",role: "fe", quality_star: 2.6 },
+	// { id_project: 11, name: "NemuDiamond", github: null, link: "https://nemudiamond.store",role: "fe", quality_star: 3.9 },
+	{ id_project: 12, name: "Bloom Aesthetic Clinic - Klinik Kecantikan & Perawatan Kulit", github: "https://github.com/cryzepy/klinik-kecantikan", link: "https://cryzepy.github.io/klinik-kecantikan/",role: "fe", quality_star: 3.4 },
+	{ id_project: 14, name: "Ar-Rihlah Travel - Umroh & Haji Amanah", github: "https://github.com/cryzepy/umroh", link: "https://cryzepy.github.io/umroh/",role: "fe", quality_star: 2.5 },
 ]
 
 const PROJECT_BE = [
 	{ id_project: 8, name: "System Authentication API", github: "https://github.com/cryzepy/system-login-v1", role: "be", quality_star: 2.5 },
 	{ id_project: 9, name: "ShortLink API", github: "https://github.com/cryzepy/url-shortener", role: "be", quality_star: 2.4 },
 	{ id_project: 10, name: "Backend For Left Days Mobile App", github: "https://github.com/cryzepy/leftdays-backend", role: "be", quality_star: 2.0 },
-	{ id_project: 1, name: "Mapping System for Public Facilities - Tunjungsekar, Malang", github: "https://github.com/cryzepy/project-map", link: "https://project-map-eight.vercel.app/", role: "be", quality_star: 4.0 },
-	{ id_project: 2, name: "Online Project Course for PKM-PM, Muhammadiyah University Malang", link: "https://project-course-2-cli.vercel.app/", role: "be", quality_star: 2.1 },
+	// { id_project: 1, name: "Mapping System for Public Facilities - Tunjungsekar, Malang", github: "https://github.com/cryzepy/project-map", link: "https://project-map-eight.vercel.app/", role: "be", quality_star: 4.0 },
+	// { id_project: 2, name: "Online Project Course for PKM-PM, Muhammadiyah University Malang", link: "https://project-course-2-cli.vercel.app/", role: "be", quality_star: 2.1 },
 	{ id_project: 13, name: "Product & Inventory Management API", github: "https://github.com/cryzepy/ecommerce-inventory-api", role: "be", quality_star: 3.6 },
-	{ id_project: 11, name: "NemuDiamond", github: null, link: "https://nemudiamond.store",role: "be", quality_star: 2.5 },
-	{ id_project: 6, name: "AlfiMart Enterprise - E-Commerce Platform", github: "https://github.com/cryzepy/alfimart-enterprise", link: "https://alfimart-enterprise.vercel.app/",role: "be",quality_star: 4.7 },
+	// { id_project: 11, name: "NemuDiamond", github: null, link: "https://nemudiamond.store",role: "be", quality_star: 2.6 },
+	// { id_project: 6, name: "AlfiMart Enterprise - E-Commerce Platform", github: "https://github.com/cryzepy/alfimart-enterprise", link: "https://alfimart-enterprise.vercel.app/",role: "be",quality_star: 4.7 },
 ]
 
 const PROJECT_FS = [
 	{ id_project: 8, name: "System Authentication API", github: "https://github.com/cryzepy/system-login-v1", role: "fs", quality_star: 2.4 },
 	{ id_project: 9, name: "ShortLink API", github: "https://github.com/cryzepy/url-shortener", role: "fs", quality_star: 2.3 },
 	{ id_project: 10, name: "Backend For Left Days Mobile App", github: "https://github.com/cryzepy/leftdays-backend", role: "fs", quality_star: 1.9 },
-	{ id_project: 1, name: "Mapping System for Public Facilities - Tunjungsekar, Malang", github: "https://github.com/cryzepy/project-map", link: "https://project-map-eight.vercel.app/", role: "fs", quality_star: 4.0 },
-	{ id_project: 2, name: "Online Project Course for PKM-PM, Muhammadiyah University Malang", link: "https://project-course-2-cli.vercel.app/", role: "fs", quality_star: 2.2 },
+	// { id_project: 1, name: "Mapping System for Public Facilities - Tunjungsekar, Malang", github: "https://github.com/cryzepy/project-map", link: "https://project-map-eight.vercel.app/", role: "fs", quality_star: 4.0 },
+	// { id_project: 2, name: "Online Project Course for PKM-PM, Muhammadiyah University Malang", link: "https://project-course-2-cli.vercel.app/", role: "fs", quality_star: 2.2 },
 	{ id_project: 3, name: "jadwal sholat di indonesia", github: "https://github.com/cryzepy/Jadwal-Sholat-By-Fikrialfian", link: "https://cryzepy.github.io/Jadwal-Sholat-By-Fikrialfian/", role: "fs", quality_star: 1.7 },
 	{ id_project: 13, name: "Product & Inventory Management API", github: "https://github.com/cryzepy/ecommerce-inventory-api", role: "fs", quality_star: 3.5 },
 	{ id_project: 4, name: "Furniture Landing Page", github: "https://github.com/cryzepy/SkwnFrontendDev-1a-FikriAlfian", link: "https://cryzepy.github.io/SkwnFrontendDev-1a-FikriAlfian/",role: "fs", quality_star: 3.1},
 	{ id_project: 5, name: "Finance App Dashboard", github: "https://github.com/cryzepy/SkwnFrontendDev-1b-FikriAlfian", link: "https://cryzepy.github.io/SkwnFrontendDev-1b-FikriAlfian/",role: "fs", quality_star: 0.9},
-	{ id_project: 6, name: "AlfiMart Enterprise - E-Commerce Platform", github: "https://github.com/cryzepy/alfimart-enterprise", link: "https://alfimart-enterprise.vercel.app/",role: "fs",quality_star: 4.8 },
-	{ id_project: 11, name: "NemuDiamond", github: null, link: "https://nemudiamond.store",role: "fs", quality_star: 3.0 },
-	{ id_project: 7, name: "Instagram Follow Analyzer", github: "https://github.com/cryzepy/instagram-follow-analyzer", link: "https://instagram-follow-analyzer-black.vercel.app/",role: "fs",quality_star: 2.2 },
+	// { id_project: 6, name: "AlfiMart Enterprise - E-Commerce Platform", github: "https://github.com/cryzepy/alfimart-enterprise", link: "https://alfimart-enterprise.vercel.app/",role: "fs",quality_star: 4.8 },
+	// { id_project: 11, name: "NemuDiamond", github: null, link: "https://nemudiamond.store",role: "fs", quality_star: 3.1 },
+	{ id_project: 7, name: "Instagram Follow Analyzer", github: "https://github.com/cryzepy/instagram-follow-analyzer", link: "https://instagram-follow-analyzer-black.vercel.app/",role: "fs",quality_star: 2.2 }, // ❌ 
 ]
 
 
